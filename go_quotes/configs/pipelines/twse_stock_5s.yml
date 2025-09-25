@@ -1,0 +1,42 @@
+name: twse_stock_5s
+source: twse
+type: stock
+symbols:
+  - "1101"
+  - "1102"
+  - "1216"
+  - "1301"
+  - "1303"
+  - "1326"
+  - "1402"
+  - "1590"
+  - "2002"
+  - "2105"
+  - "2207"
+  - "2301"
+  - "2303"
+  - "2308"
+  - "2317"
+  - "2330"
+  - "2353"
+  - "2357"
+  - "2382"
+  - "2408"
+  - "2412"
+  - "2454"
+  - "2492"
+  - "2603"
+  - "2609"
+  - "2610"
+  - "2801"
+  - "2881"
+  - "2882"
+  - "3008"
+every: "5s"
+batch_size: 10
+batches_per_tick: 1
+max_workers: 4
+max_concurrency: 2
+output_dir: "out/twse"
+write_json: false
+write_json_every_ticks: 5

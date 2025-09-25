@@ -1,0 +1,22 @@
+name: yahoo_crypto_daily
+source: yahoo
+type: crypto
+symbols:
+  - "BTCUSDT"
+  - "ETHUSDT"
+  - "BNBUSDT"
+  - "SOLUSDT"
+  - "XRPUSDT"
+  - "ADAUSDT"
+  - "DOGEUSDT"
+  - "MATICUSDT"
+  - "DOTUSDT"
+  - "LTCUSDT"
+every: "24h"
+batch_size: 10
+batches_per_tick: 1
+max_workers: 2
+max_concurrency: 2
+output_dir: "out/yahoo"
+write_json: false
+write_json_every_ticks: 5

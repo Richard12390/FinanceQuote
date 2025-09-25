@@ -1,0 +1,132 @@
+{"level":"info","ts":"2025-09-15T23:35:43+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:45","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-15T23:35:43+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:45","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-15T23:35:43+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:35:43+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233543.json","items":2}
+{"level":"info","ts":"2025-09-15T23:35:44+08:00","logger":"stock.yahoo_stock_daily","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.yahoo.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:35:44+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\yahoo\\yahoo_stock_daily_20250915_233544.json","items":2}
+{"level":"info","ts":"2025-09-15T23:35:48+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:35:48+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233548.json","items":2}
+{"level":"info","ts":"2025-09-15T23:35:53+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:35:53+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233553.json","items":2}
+{"level":"info","ts":"2025-09-15T23:35:58+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:35:58+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233558.json","items":2}
+{"level":"info","ts":"2025-09-15T23:36:03+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:36:03+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233603.json","items":2}
+{"level":"info","ts":"2025-09-15T23:36:08+08:00","logger":"stock.Twse_stock_5s","caller":"usecase/ingest.go:91","msg":"published","batchSize":10,"batchesPerTick":1,"subject":"quotes.twse.stock","count":2}
+{"level":"info","ts":"2025-09-15T23:36:08+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:95","msg":"pipeline wrote file","batchSize":10,"batchesPerTick":1,"path":"out\\twse\\Twse_stock_5s_20250915_233608.json","items":2}
+{"level":"info","ts":"2025-09-15T23:36:11+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:110","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-15T23:36:11+08:00","logger":"stock","caller":"guotepub.go/main.go:193","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-15T23:36:11+08:00","logger":"stock.Twse_stock_5s","caller":"pipeline/pipeline.go:110","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-17T16:09:51+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-17T16:09:51+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-17T16:09:51+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-17T16:10:50+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:124","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-17T16:10:50+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:124","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-17T16:10:50+08:00","logger":"stock","caller":"guotepub.go/main.go:200","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-17T16:10:50+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:124","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:37:11+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T00:37:11+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T00:37:11+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"error","ts":"2025-09-18T00:37:11+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:82","msg":"fetch error","batchSize":10,"batchesPerTick":1,"error":"EOF"}
+{"level":"info","ts":"2025-09-18T00:40:52+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:134","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:40:52+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:134","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:40:52+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:134","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:40:52+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T00:41:13+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T00:41:13+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T00:41:31+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:134","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:41:31+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:134","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T00:41:31+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:08:38+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:08:38+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:09:05+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:09:05+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:09:05+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:09:33+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:09:33+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:10:07+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:10:07+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:10:07+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:12:14+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:12:14+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:16:01+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:16:01+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:16:01+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:18:39+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:18:39+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:18:49+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:18:49+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:18:49+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:28:51+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:28:51+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:29:09+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:29:09+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:29:09+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:50:16+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:50:16+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:50:27+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:50:27+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:50:27+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T18:50:52+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:50:52+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T18:51:04+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:51:04+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T18:51:04+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T19:18:36+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:18:36+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:18:38+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:18:38+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:18:38+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T19:33:59+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:33:59+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:34:13+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:34:13+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:34:13+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-18T19:34:40+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:34:40+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-18T19:34:41+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:34:41+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-18T19:34:41+08:00","logger":"stock","caller":"guotepub.go/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T14:49:11+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T14:49:11+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"error","ts":"2025-09-24T17:38:43+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:89","msg":"publish error","batchSize":10,"batchesPerTick":1,"error":"NATS flush timeout: nats: timeout"}
+{"level":"error","ts":"2025-09-24T17:54:50+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:81","msg":"fetch error","batchSize":10,"batchesPerTick":1,"error":"TWSE fetch: Get \"https://mis.twse.com.tw/stock/api/getStockInfo.jsp?_=1758707689783&delay=0&ex_ch=tse_2317.tw%7Ctse_2454.tw&json=1\": dial tcp: lookup mis.twse.com.tw: no such host"}
+{"level":"error","ts":"2025-09-24T17:54:51+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:81","msg":"fetch error","batchSize":10,"batchesPerTick":1,"error":"TWSE fetch: Get \"https://mis.twse.com.tw/stock/api/getStockInfo.jsp?_=1758707691462&delay=0&ex_ch=tse_2317.tw%7Ctse_2454.tw&json=1\": dial tcp: lookup mis.twse.com.tw: no such host"}
+{"level":"info","ts":"2025-09-24T17:57:02+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T17:57:02+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T17:57:02+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T17:57:12+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T17:57:12+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:39:18+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:18+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:18+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T18:39:25+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:39:25+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:39:34+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:34+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:34+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T18:39:48+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:39:48+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:39:56+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:56+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T18:39:56+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T18:41:25+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T18:41:25+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T19:04:38+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:04:38+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:04:38+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T19:05:22+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T19:05:22+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T19:18:49+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:18:49+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:18:49+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T19:18:54+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T19:18:54+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T19:48:14+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:48:14+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T19:48:14+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}
+{"level":"info","ts":"2025-09-24T20:46:32+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T20:46:32+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:44","msg":"pipeline started","batchSize":10,"batchesPerTick":1}
+{"level":"info","ts":"2025-09-24T20:47:01+08:00","logger":"stock.yahoo_stock_daily","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T20:47:01+08:00","logger":"stock.twse_stock_5s","caller":"pipeline/pipeline.go:133","msg":"pipeline stopping","batchSize":10,"batchesPerTick":1,"error":"context canceled"}
+{"level":"info","ts":"2025-09-24T20:47:01+08:00","logger":"stock","caller":"guotepub/main.go:209","msg":"Shutting down"}

@@ -1,0 +1,22 @@
+name: binance_crypto_1s
+source: binance
+type: crypto
+symbols:
+  - "BTCUSDT"
+  - "ETHUSDT"
+  - "BNBUSDT"
+  - "SOLUSDT"
+  - "XRPUSDT"
+  - "ADAUSDT"
+  - "DOGEUSDT"
+  - "MATICUSDT"
+  - "DOTUSDT"
+  - "LTCUSDT"
+every: "1s"
+batch_size: 10
+batches_per_tick: 1
+max_workers: 2
+max_concurrency: 2
+output_dir: "out/binance"
+write_json: false
+write_json_every_ticks: 5

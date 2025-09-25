@@ -1,0 +1,52 @@
+{
+  "quoteResponse": {
+    "result": [
+      {
+        "askPrice": "114543.35000000",
+        "askQty": "0.49046000",
+        "bidPrice": "114543.34000000",
+        "bidQty": "9.98105000",
+        "closeTime": 1757950567011,
+        "count": 2504740,
+        "firstId": 5232542672,
+        "highPrice": "116757.99000000",
+        "lastId": 5235047411,
+        "lastPrice": "114543.34000000",
+        "lastQty": "0.00015000",
+        "lowPrice": "114384.00000000",
+        "openPrice": "115256.30000000",
+        "openTime": 1757864167011,
+        "prevClosePrice": "115256.29000000",
+        "priceChange": "-712.96000000",
+        "priceChangePercent": "-0.619",
+        "quoteVolume": "1431529949.67844890",
+        "symbol": "BTCUSDT",
+        "volume": "12412.14983000",
+        "weightedAvgPrice": "115332.95756860"
+      },
+      {
+        "askPrice": "4473.90000000",
+        "askQty": "1.32780000",
+        "bidPrice": "4473.89000000",
+        "bidQty": "85.50200000",
+        "closeTime": 1757950567009,
+        "count": 3684902,
+        "firstId": 2848132101,
+        "highPrice": "4670.28000000",
+        "lastId": 2851817002,
+        "lastPrice": "4473.90000000",
+        "lastQty": "0.54650000",
+        "lowPrice": "4466.00000000",
+        "openPrice": "4581.00000000",
+        "openTime": 1757864167009,
+        "prevClosePrice": "4580.99000000",
+        "priceChange": "-107.10000000",
+        "priceChangePercent": "-2.338",
+        "quoteVolume": "1813141383.28776100",
+        "symbol": "ETHUSDT",
+        "volume": "396956.26130000",
+        "weightedAvgPrice": "4567.60998642"
+      }
+    ]
+  }
+}
