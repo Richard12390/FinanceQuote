@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, useRouter } from "vue-router"
-import { Home, Clock9, ClipboardClock, Search, Settings, Star } from "lucide-vue-next"
+import { Home, Clock9, Star } from "lucide-vue-next"
 import { logout } from '@/api/auth';
 import {
   Sidebar,
@@ -30,21 +30,6 @@ const items = [
     title: "Real-time Quote",
     url: "/index",
     icon: Clock9,
-  },
-  {
-    title: "Daily Quote",
-    url: "/index",
-    icon: ClipboardClock,
-  },
-  {
-    title: "Search",
-    url: "/index",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "/index",
-    icon: Settings,
   },
   {
     title: "Favorites",
