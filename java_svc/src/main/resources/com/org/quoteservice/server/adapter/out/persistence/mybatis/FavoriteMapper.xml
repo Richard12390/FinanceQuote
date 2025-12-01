@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.org.quoteservice.server.adapter.out.persistence.mapper.FavoriteMapper">
+
+  <select id="getByUserId" parameterType="long" resultType="com.org.quoteservice.server.domain.model.Favorite">
+    SELECT user_id, symbol
+    FROM favorites
+    WHERE user_id = #{userId}
+  </select>
+
+  <insert id="upsert" parameterType="com.org.quoteservice.server.domain.model.Favorite">
+    INSERT INTO favorites (user_id, symbol)
+    VALUES (#{userId}, #{symbol})
+    ON DUPLICATE KEY UPDATE symbol = VALUES(symbol)
+  </insert>
+
+  <delete id="delete">
+    DELETE FROM favorites
+    WHERE user_id = #{userId}
+      AND symbol = #{symbol}
+  </delete>
+
+</mapper>

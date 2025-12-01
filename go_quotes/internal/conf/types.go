@@ -2,8 +2,8 @@ package conf
 
 type Pipeline struct {
 	Name                string   `yaml:"name"`
-	Source              string   `yaml:"source"`
-	AssetType           string   `yaml:"type"`
+	Source              string   `yaml:"source"` // yahoo, twse, binance
+	AssetType           string   `yaml:"type"`   // stock, etf, crypto
 	Symbols             []string `yaml:"symbols"`
 	Every               string   `yaml:"every"`
 	BatchSize           int      `yaml:"batch_size"`

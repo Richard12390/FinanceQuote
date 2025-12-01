@@ -11,8 +11,9 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class NatsConfig {
+
     @Bean
-    public Connection nats(@Value("") String url) throws Exception {
+    public Connection nats(@Value("${nats.url:nats://localhost:4222}") String url) throws Exception {
         Options opts = new Options.Builder()
                 .server(url)
                 .connectionTimeout(Duration.ofSeconds(5))

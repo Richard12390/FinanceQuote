@@ -49,7 +49,7 @@ func normalizeTwse(r map[string]any, keepRaw bool) QuoteNorm {
 		Open:         asFloat64(r["o"]),
 		High:         asFloat64(r["h"]),
 		Low:          asFloat64(r["l"]),
-		PrevClose:    asFloat64(r["v"]),
+		PrevClose:    asFloat64(r["y"]),
 		Bid:          asFloat64(r["b"]),
 		BidSize:      asFloat64(r["g"]),
 		Ask:          asFloat64(r["a"]),

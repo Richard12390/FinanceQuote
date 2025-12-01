@@ -9,9 +9,9 @@ symbols:
   - "XRPUSDT"
   - "ADAUSDT"
   - "DOGEUSDT"
-  - "MATICUSDT"
-  - "DOTUSDT"
-  - "LTCUSDT"
+  - "TONUSDT"
+  - "TRXUSDT"
+  - "LINKUSDT"
 every: "1s"
 batch_size: 10
 batches_per_tick: 1

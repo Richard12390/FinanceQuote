@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quote Stream 測試</title>
+  <link rel="stylesheet" href="/css/ws-test.css" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+    th, td { border: 1px solid #ddd; padding: 0.6rem; text-align: left; }
+    th { background: #f0f4ff; }
+    .up { color: #d11; }
+    .down { color: #1a7d00; }
+    .neutral { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>即時行情</h1>
+
+  <form>
+    <button id="connect" type="button">Connect</button>
+    <button id="disconnect" type="button" disabled>Disconnect</button>
+  </form>
+
+  <table id="quotesTable" style="display: none;">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Last Price</th>
+        <th>Change</th>
+        <th>%</th>
+        <th>更新時間</th>
+      </tr>
+    </thead>
+    <tbody id="quotesBody"></tbody>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+  <script src="/test.js"></script>
+</body>
+</html>

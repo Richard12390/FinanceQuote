@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>WS 測試</title>
+  <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7/dist/stomp.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    button { margin-right: 12px; }
+    #messages { margin-top: 16px; padding: 12px; border: 1px solid #ccc; height: 240px; overflow-y: auto; background: #f9f9f9; }
+    .msg { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <h1>RabbitMQ STOMP 測試</h1>
+  <p>預設連線到 <code>http://localhost:8080/ws</code>，訂閱 <code>/topic/quotes</code>。</p>
+  <button onclick="connect()">連線</button>
+  <button onclick="disconnect()">斷線</button>
+  <span id="status">未連線</span>
+
+  <div id="messages"></div>
+
+  <script>
+    const WS_URL = 'http://localhost:8080/ws';
+    const TOPIC = '/topic/quotes';
+    let client = null;
+
+    function connect() {
+      if (client && client.active) {
+        append('已經在連線狀態');
+        return;
+      }
+      append(`連線中: ${WS_URL}`);
+      client = new StompJs.Client({
+        webSocketFactory: () => new SockJS(WS_URL),
+        reconnectDelay: 5000,
+        onConnect: () => {
+          setStatus('已連線');
+          append(`開始訂閱 ${TOPIC}`);
+          client.subscribe(TOPIC, frame => append('收到: ' + frame.body));
+        },
+        onStompError: frame => append('STOMP 錯誤: ' + frame.headers['message']),
+        onWebSocketClose: () => {
+          setStatus('未連線');
+          append('連線關閉');
+        }
+      });
+      client.activate();
+    }
+
+    function disconnect() {
+      if (client) {
+        client.deactivate();
+        client = null;
+      }
+      setStatus('未連線');
+      append('已發出斷線');
+    }
+
+    function append(text) {
+      const box = document.getElementById('messages');
+      const div = document.createElement('div');
+      div.className = 'msg';
+      div.textContent = `[${new Date().toLocaleTimeString()}] ${text}`;
+      box.appendChild(div);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function setStatus(text) {
+      document.getElementById('status').textContent = text;
+    }
+  </script>
+</body>
+</html>

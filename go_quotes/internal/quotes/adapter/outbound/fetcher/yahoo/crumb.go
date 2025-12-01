@@ -35,12 +35,14 @@ func getCookieAndCrumb() (*http.Client, string, error) {
 	if err != nil {
 		fmt.Printf("Error occurred while reading response body: %s", err)
 		return nil, "", fmt.Errorf("read crumb: %w", err)
+		// return
 	}
 
 	// Trim crumb if necessary
 	trimmedCrumb := strings.Trim(string(crumb), "\" \n\r")
 	if trimmedCrumb == "" {
 		return nil, "", fmt.Errorf("empty crumb")
+		// return
 	}
 	return client, trimmedCrumb, nil
 }

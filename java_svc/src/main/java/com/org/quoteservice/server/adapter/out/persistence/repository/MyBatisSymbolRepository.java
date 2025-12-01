@@ -8,6 +8,12 @@ import com.org.quoteservice.server.application.port.out.SymbolRepositoryPort;
 import com.org.quoteservice.server.domain.model.Symbol;
 import org.springframework.stereotype.Repository;
 
+/*
+import java.util.List;
+import java.util.Map;
+import com.org.quoteservice.server.application.dto.ListInstrumentsQuery;
+*/
+
 @Repository
 @RequiredArgsConstructor
 public class MyBatisSymbolRepository implements SymbolRepositoryPort {
@@ -43,4 +49,11 @@ public class MyBatisSymbolRepository implements SymbolRepositoryPort {
         }
         return Optional.ofNullable(symbolMapper.findCategoryIdByCode(code));
     }
+
+    /*
+    @Override
+    public List<Map<String, Object>> listInstruments(ListInstrumentsQuery query) {
+        return symbolMapper.listInstruments(query);
+    }
+    */
 }

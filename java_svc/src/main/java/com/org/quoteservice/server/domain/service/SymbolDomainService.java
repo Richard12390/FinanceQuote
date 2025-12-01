@@ -3,6 +3,7 @@ package com.org.quoteservice.server.domain.service;
 import java.util.Locale;
 import lombok.RequiredArgsConstructor;
 import com.org.quoteservice.server.domain.repository.SymbolRepositoryPort;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -12,6 +13,7 @@ public class SymbolDomainService {
 
     private final SymbolRepositoryPort symbolRepository;
 
+    @Cacheable(cacheNames = "symbolCategory", key = "#assetType != null ? #assetType.toLowerCase() : 'default'")
     public int resolveCategoryId(String assetType) {
         if (assetType == null) {
             return DEFAULT_CATEGORY_ID;

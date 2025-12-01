@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: quote-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/quotes?useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=Asia/Taipei
+    username: root
+    password: 123
+  jackson:
+    time-zone: Asia/Taipei
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  task:
+    scheduling:
+      pool:
+        size: 1
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
+
+mybatis:
+  mapper-locations: classpath:/com/org/quoteservice/server/adapter/out/persistence/mybatis/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    # log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+
+logging:
+  level:
+    org.springframework.boot.autoconfigure: INFO
+    root: INFO
+    org.springframework.jdbc.support.JdbcTransactionManager: DEBUG
+  charset:
+    console: UTF-8
+    file: UTF-8
+
+nats:
+  url: ${NATS_URL:nats://localhost:4222} 
+
+app:
+  streams:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_STREAM_PORT:5552}
+    stream-name: ${RABBITMQ_STREAM_NAME:quotes.stream}
+    consumer-name: ${RABBITMQ_CONSUMER_NAME:quotes-listener}
+    username: ${RABBITMQ_USERNAME:quotes}
+    password: ${RABBITMQ_PASSWORD:123}
+  stomp:
+    host: ${RABBITMQ_HOST:rabbitmq}
+    port: ${RABBITMQ_STOMP_PORT:61613}
+    virtual-host: ${RABBITMQ_VHOST:/}
+    system-login: ${RABBITMQ_USERNAME:quotes}
+    system-passcode: ${RABBITMQ_PASSWORD:123}
+    client-login: ${RABBITMQ_USERNAME:quotes}
+    client-passcode: ${RABBITMQ_PASSWORD:123}
+  cors:
+    allowed-origins:
+      - http://localhost:5173    
