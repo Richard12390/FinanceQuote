@@ -104,13 +104,14 @@ cd deploy
 docker compose up -d
 
 服務啟動後可於瀏覽器存取前端介面：http://localhost:8030
+```
 
 ---
 
-##Tech Stack
+## Tech Stack
 
--Go：高併發行情擷取與事件發佈
--NATS：事件訊息中樞
+- Go：高併發行情擷取與事件發佈
+- NATS：事件訊息中樞
 - Java 17 / Spring Boot：後端服務
 - MyBatis / MySQL：資料存取
 - JWT：登入驗證
@@ -118,3 +119,5 @@ docker compose up -d
 - Vue 3：前端介面
 - Docker Compose：部署與服務管理
 - Zap + Lumberjack：結構化日誌與輪轉
+
+---
